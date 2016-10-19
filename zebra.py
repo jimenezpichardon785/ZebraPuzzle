@@ -183,8 +183,3 @@ def show(solution):
 		
 for sol in list(find_solutions()):
 	show(sol)
-	solv_zebra = sol.pet.index('zebra')
-	print "{} owns {}".format(sol.nationality[solv_zebra], sol.pet[solv_zebra])
-
-	solv_water = sol.drink.index('water')
-	print "{} drinks {}".format(sol.nationality[solv_water],sol.drink[solv_water])
